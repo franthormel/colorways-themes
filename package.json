@@ -1,13 +1,17 @@
 {
     "name": "colorways",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "Franthormel",
+    "scripts": {
+        "package": "vsce package -o colorways.vsix",
+        "preview": "code --install-extension colorways.vsix "
+    },
     "engines": {
         "vscode": "^1.68.0"
     },
-    "license": "SEE LICENSE IN LICENSE.md",
+    "license": "SEE LICENSE.md",
     "displayName": "Colorways Themes",
-    "description": "A Visual Studio Code Theme inspired by Firefox Colorways.",
+    "description": "Themes inspired by Firefox Colorways.",
     "categories": [
         "Themes"
     ],
@@ -16,7 +20,6 @@
         "Light",
         "Dark",
         "Balanced",
-        "Bold",
         "Colorways"
     ],
     "author": {
@@ -31,11 +34,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/franthormel/colorways-vscode"
+        "url": "https://github.com/franthormel/colorways-themes"
     },
-    "homepage": "https://github.com/franthormel/colorways-vscode",
+    "homepage": "https://github.com/franthormel/colorways-themes",
     "bugs": {
-        "url": "https://github.com/franthormel/colorways-vscode/issues/new?template=bug_report.md&title=[BUG]"
+        "url": "https://github.com/franthormel/colorways-themes/issues/new?template=bug_report.md&title=[BUG]"
     },
     "contributes": {
         "themes": [
@@ -52,6 +55,6 @@
         ]
     },
     "devDependencies": {
-        "vsce": "^2.9.2"
+        "vsce": "^4.0.0"
     }
 }
