@@ -17,9 +17,13 @@ Required to modify the following:
 
 Editing a theme file without the `contributes.themes` entry produces a theme that silently does not appear in the theme picker.
 
-## Where the colors come from
+## References
 
-`references/*.png` are the source screenshots.
+Use `references/*.png` for the actual color values
+
+## Reviewing
+
+Ensure, as much as possible, that all of the colors in the references are actually applied and incorporated into the themes.
 
 ## Releasing is done manually by the developer
 

@@ -4,7 +4,8 @@
     "publisher": "Franthormel",
     "scripts": {
         "package": "vsce package -o colorways.vsix",
-        "preview": "code --install-extension colorways.vsix "
+        "preview": "code --install-extension colorways.vsix",
+        "test": "vsce package -o colorways.vsix && code --install-extension colorways.vsix"
     },
     "engines": {
         "vscode": "^1.68.0"
