@@ -3,7 +3,9 @@
     "version": "0.2.3",
     "publisher": "Franthormel",
     "scripts": {
-        "test": "vsce package -o colorways.vsix && code --install-extension colorways.vsix"
+        "package": "vsce package -o colorways.vsix",
+        "install": "code --install-extension colorways.vsix",
+        "package-install": "vsce package -o colorways.vsix && code --install-extension colorways.vsix"
     },
     "engines": {
         "vscode": "^1.68.0"

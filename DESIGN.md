@@ -6,23 +6,13 @@ Ensure, as much as possible, that all of the colors in the references are actual
 
 However, _the core rules must and always be prioritized_ if following the actual reference colors violates any of the core rules.
 
-However, the colors required to satisfy these core rules might also be missing from the given reference palette.
+However, if the colors required to satisfy the core rules might are missing from the given reference palette:
 
-This is why the `other-colors.txt` file is created under the `/references` directory. Anytime a new color is chosen to satisfy the core rules:
-
-1. This new color must be added into the `other-colors.txt` file
-2. Try to document it well on how it was used in the theme files
-   1. However, descriptions can be omitted if the color is used in a general or generic manner. (e.g. green colors for a success state, etc.)
-
-If the existing colors in the text file still fails to meet the core rules, repeat the same step of choosing another color (perhaps in the same color family).
-
-The colors in the text file are not rigid but rather serve as a reminder.
-
-This will also serve as a guide in the future whenever it comes to deciding the colors that will satisfy the core rules.
-
-## Review
-
-As needed, perform multiple rounds of reviews to ensure that the designed themes are actually usable and doesn't just follow the given color values blindlessly.
+1. Try to pick from the `/references/other-colors.txt` file
+   - This is a rigid color list. If the color that you need does not exist, proceed to the next steps.
+   - Only add a new color this file if it's being used broadly amongst all themes.
+2. Try to pick existing color values from the sibling themes or the other existing themes
+3. If no color values are still applicable, pick something that you think fits best.
 
 ## Core Rules
 
