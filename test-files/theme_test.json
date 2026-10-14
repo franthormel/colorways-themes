@@ -1,0 +1,23 @@
+{
+  "$schema": "https://example.com/schema.json",
+  "name": "theme-test",
+  "version": "1.0.0",
+  "private": true,
+  "users": [
+    {
+      "name": "Ada",
+      "age": 36,
+      "active": true
+    },
+    {
+      "name": "Linus",
+      "age": 0,
+      "active": false
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "fontSize": 14,
+    "ligatures": null
+  }
+}
