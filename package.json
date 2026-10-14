@@ -1,10 +1,8 @@
 {
     "name": "colorways",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "publisher": "Franthormel",
     "scripts": {
-        "package": "vsce package -o colorways.vsix",
-        "preview": "code --install-extension colorways.vsix",
         "test": "vsce package -o colorways.vsix && code --install-extension colorways.vsix"
     },
     "engines": {

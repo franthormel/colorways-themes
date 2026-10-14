@@ -6,6 +6,13 @@ VS Code **color-theme extension**.
 
 There is no test/lint/typecheck step.
 
+## Guidelines
+
+See `DESIGN.md` for the full guidelines.
+
+If following the guidelines takes a longer time than expected, you can always ask the user for help.
+The user can and will finalize the design decision.
+
 ## Theme - Adding or Editing
 
 Required to modify the following:
@@ -20,10 +27,6 @@ Editing a theme file without the `contributes.themes` entry produces a theme tha
 ## References
 
 Use `references/*.png` for the actual color values
-
-## Reviewing
-
-Ensure, as much as possible, that all of the colors in the references are actually applied and incorporated into the themes.
 
 ## Releasing is done manually by the developer
 
