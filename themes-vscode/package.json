@@ -1,6 +1,6 @@
 {
     "name": "colorways",
-    "version": "0.2.3",
+    "version": "0.2.5",
     "publisher": "Franthormel",
     "scripts": {
         "package": "vsce package -o colorways.vsix",
@@ -28,7 +28,7 @@
         "email": "fcaboyo@gmail.com",
         "url": "https://franthormel.github.io"
     },
-    "icon": "images/icon.png",
+    "icon": "assets/icon.png",
     "galleryBanner": {
         "color": "#FEFEFE",
         "theme": "light"

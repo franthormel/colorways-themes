@@ -6,7 +6,7 @@ Ensure, as much as possible, that all of the colors in the references are actual
 
 However, _the core rules must and always be prioritized_ if following the actual reference colors violates any of the core rules.
 
-However, if the colors required to satisfy the core rules might are missing from the given reference palette:
+However, if the colors required to satisfy the core rules might be missing from the given reference palette:
 
 1. Try to pick from the `/references/other-colors.txt` file
    - This is a rigid color list. If the color that you need does not exist, proceed to the next steps.
