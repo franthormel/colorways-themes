@@ -9,10 +9,6 @@ See `DESIGN.md` for the full guidelines.
 If following the guidelines takes a longer time than expected, you can always ask the user for help.
 The user can and will finalize the design decision.
 
-Additionally each project has a guide file `THEME.md` for modifying the corresponding theme files:
-
-- [VS Code Theme Guide](themes-vscode/THEME.md)
-
 ## Theme - Adding or Editing
 
 - [VS Code](themes-vscode/)
@@ -40,6 +36,7 @@ The `LICENSE.md` file in the root directory is the original license file that's 
 ## Releasing is done manually by the user
 
 DO NOT perform this automatically.
+DO NOT bump the version numbers.
 This will and always be done manually by the user.
 
 ## Review is done manually by the user

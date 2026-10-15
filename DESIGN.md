@@ -1,17 +1,27 @@
 # Theme Design Guidelines
 
+Each project might contain an additional guide reference docs file `THEME.md` for modifying the corresponding theme files, e.g. [VS Code Theme Guide](themes-vscode/THEME.md)
+
+This guide comes from the official theme documentation.
+
+As needed, _the core rules must still and always be prioritized_ over this doc file.
+
 ## Picking the Colors
 
 Ensure, as much as possible, that all of the colors in the references are actually applied and incorporated into the themes.
 
-However, _the core rules must and always be prioritized_ if following the actual reference colors violates any of the core rules.
+However, _the core rules must still and always be prioritized_ if following the actual reference colors violates any of the core rules.
 
 However, if the colors required to satisfy the core rules might be missing from the given reference palette:
 
 1. Try to pick from the `/references/other-colors.txt` file
    - This is a rigid color list. If the color that you need does not exist, proceed to the next steps.
    - Only add a new color this file if it's being used broadly amongst all themes.
-2. Try to pick existing color values from the sibling themes or the other existing themes
+2. Try to pick existing color values from the sibling themes or the other existing themes. Here is the precendence for the theme styles
+   - Light theme is closer to the balanced them than the dark theme
+   - Balanced theme is closer to a light theme than the dark theme
+   - Dark theme is closer to the balanced theme than the light theme
+   - TLDR; Light <--close to one another--> Balanced <--close to Dark
 3. If no color values are still applicable, pick something that you think fits best.
 
 ## Core Rules
