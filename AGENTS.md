@@ -4,42 +4,46 @@ Colorways theme extension/plugin for IntelliJ IDEA and VS Code.
 
 ## Design Guidelines
 
-See `DESIGN.md` for the full guidelines.
+Read `DESIGN.md` before creating or editing themes. Follow it as the source of truth for design decisions.
 
-If following the guidelines takes a longer time than expected, you can always ask the user for help.
-The user can and will finalize the design decision.
+Ask the user for help when blocked by ambiguity, conflicting guidelines, missing information, or if following the guidelines takes significantly longer than expected.
+
+Explain the issue rather than guessing or silently deviating from the guidelines.
+
+If `DESIGN.md` and the reference images appear to conflict, ask the user instead of choosing one interpretation automatically.
 
 ## Theme - Adding or Editing
 
-- [VS Code](themes-vscode/)
-  - `themes-vscode/themes/<theme-name>/<theme-substyle>-color-theme.json`
-  - `themes-vscode/package.json`
-    - Add/update in `contributes.themes[]` the theme's `label`, `uiTheme`, and `path`.
-    - If the UI theme is not explicitly stated in the references, ask the user for manual input.
-    - Editing a theme file without the `contributes.themes` entry produces a theme that silently does not appear in the theme picker.
+### VS Code
 
-## References for the Colors used
+- Theme files: `themes-vscode/themes/<theme-name>/<theme-substyle>-color-theme.json`
+- Manifest: `themes-vscode/package.json`
+  - Add or update the corresponding entry in `contributes.themes[]`.
+  - Set the correct `label`, `uiTheme`, and `path`.
+  - Ensure `path` points to the actual theme JSON file relative to the VS Code extension root.
 
-Extract and sample the files in `references/*.png` for the actual color values to be used in the respective themes.
+## Color References
 
-Each of the target theme names are also located in the same reference files.
+- Use `references/*.png` as the source of truth for theme names and color values.
+- Use the target theme names shown in the reference files when creating or updating themes.
+- Extract exact color values from the reference images instead of guessing from visual appearance.
+- Prefer sampling uniform areas rather than text, edges, or antialiased regions.
+- Avoid web searches for reference colors; the values may be difficult to find reliably online.
+- Ask the user to provide the missing information rather than guessing if a reference is inaccessible or a required color cannot be determined reliably.
 
-Try to avoid looking up the reference color values in the web search since it's not easily accessible.
+## License Files
 
-If needed, you can always ask the user to sample out the color values if you're having a hard time to process the references.
-Just ask it in a structured and formatted way so the user can give back an answer that's easier to process.
+The root `LICENSE.md` is the authoritative source license file.
 
-## License files
+- Copy it unchanged when a project directory requires its own license file.
+- Do not modify the source license text.
 
-The `LICENSE.md` file in the root directory is the original license file that's meant to be copied or distributed amongst the project directories.
+## Releasing
 
-## Releasing is done manually by the user
+Do not bump version numbers.
 
-DO NOT perform this automatically.
-DO NOT bump the version numbers.
-This will and always be done manually by the user.
+Do not package, publish, or release the project automatically.
 
-## Review is done manually by the user
+## Review
 
-DO NOT perform this automatically.
-Visual and file reviews will and always be done manually by the user.
+User performs the final review.
