@@ -8,7 +8,7 @@ As needed, _the core rules must still and always be prioritized_ over this doc f
 
 ## Picking the Colors
 
-Ensure, as much as possible, that all of the colors in the references are actually applied and incorporated into the themes.
+Ensure, as much as possible, that all the colors in the references are actually applied and incorporated into the themes.
 
 However, _the core rules must still and always be prioritized_ if following the actual reference colors violates any of the core rules.
 
@@ -17,7 +17,7 @@ However, if the colors required to satisfy the core rules might be missing from 
 1. Try to pick from the `/references/other-colors.txt` file
    - This is a rigid color list. If the color that you need does not exist, proceed to the next steps.
    - Only add a new color this file if it's being used broadly amongst all themes.
-2. Try to pick existing color values from the sibling themes or the other existing themes. Here is the precendence for the theme styles
+2. Try to pick existing color values from the sibling themes or the other existing themes. Here is the precedence for the theme styles
    - Light theme is closer to the balanced them than the dark theme
    - Balanced theme is closer to a light theme than the dark theme
    - Dark theme is closer to the balanced theme than the light theme

@@ -6,6 +6,11 @@ Colorways theme extension/plugin for IntelliJ IDEA and VS Code.
 
 Read `DESIGN.md` before creating or editing themes. Follow it as the source of truth for design decisions.
 
+Prioritize designing the theme for only the given project while ensuring theme colors are followed over maintaining
+design consistency (e.g. color values) amongst project themes.
+
+Example, if you're editing VS Code themes, do not refer to existing IntelliJ IDEA themes, and vice versa.
+
 Ask the user for help when blocked by ambiguity, conflicting guidelines, missing information, or if following the guidelines takes significantly longer than expected.
 
 Explain the issue rather than guessing or silently deviating from the guidelines.
@@ -21,6 +26,19 @@ If `DESIGN.md` and the reference images appear to conflict, ask the user instead
   - Add or update the corresponding entry in `contributes.themes[]`.
   - Set the correct `label`, `uiTheme`, and `path`.
   - Ensure `path` points to the actual theme JSON file relative to the VS Code extension root.
+
+### IntelliJ IDEA
+
+Use the links as guide for the IntelliJ IDEA theme structure:
+- https://plugins.jetbrains.com/docs/intellij/themes-customize.html
+- https://plugins.jetbrains.com/docs/intellij/themes-extras.html
+
+- Project files: ` themes-intellij-idea`
+- Plugin configuration `themes-intellij-idea/resources/META-INF/plugin.xml`
+- Plugin icon `themes-intellij-idea/resources/META-INF/pluginIcon.svg`
+- Themes:
+  - `themes-intellij-idea/resources/theme/themesintellijidea.theme.json`
+- IntelliJ IDEA Module configuration `themes-intellij-idea/themes-intellij-idea.iml`
 
 ## Color References
 

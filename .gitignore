@@ -1,1 +1,4 @@
 **/*.vsix
+.idea/
+/*.iml
+out/
