@@ -5,7 +5,8 @@
   "private": true,
   "users": [
     {
-      "name": "Ada",
+      "purple": "#7A3E9D",
+      "name": "#Ada",
       "age": 36,
       "active": true
     },

@@ -24,7 +24,7 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of Cheers (Balanced).
+        Initial release of Cheers (Balanced) and Cheers (Bold).
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -33,5 +33,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="028eacf1-5992-4a5e-aae2-04cb3c2d8d4a" path="/theme/cheers-balanced.theme.json"/>
+        <themeProvider id="ca156bf6-fcd4-4aec-8b42-08ab975095fc" path="/theme/cheers-bold.theme.json"/>
     </extensions>
 </idea-plugin>

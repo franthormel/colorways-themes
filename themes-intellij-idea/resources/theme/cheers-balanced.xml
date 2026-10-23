@@ -44,8 +44,8 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="999999"/>
     <option name="SELECTED_INDENT_GUIDE" value="FAC038" />
     <option name="SELECTED_TEARLINE_COLOR" value="E8DCC0" />
-    <option name="SELECTION_BACKGROUND" value="FEF0CE" />
-    <option name="SELECTION_FOREGROUND" />
+    <option name="SELECTION_BACKGROUND" value="FCD988" />
+    <option name="SELECTION_FOREGROUND" value="333333" />
     <option name="SELECTION_BACKGROUND_INACTIVE" value="FDE6AF"/>
     <option name="TEARLINE_COLOR" value="CCCCCC" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="FDE6AF" />
@@ -527,13 +527,6 @@
         <option name="ERROR_STRIPE_COLOR" value="406FAE"/>
       </value>
     </option>
-    <option name="INFORMATION_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="406FAE"/>
-        <option name="EFFECT_TYPE" value="2"/>
-        <option name="ERROR_STRIPE_COLOR" value="406FAE"/>
-      </value>
-    </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="660000"/>
@@ -595,7 +588,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="FEF0CE"/>
+        <option name="BACKGROUND" value="FDE6AF"/>
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">

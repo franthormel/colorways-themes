@@ -2,6 +2,7 @@
   "name": "Colorways - Cheers (Balanced)",
   "author": "Francis Anthony Carmel",
   "dark": false,
+  "editorScheme": "/theme/cheers-balanced.xml",
   "colors": {
     "accent": "#FAC038",
     "accentHover": "#FBD06A",
@@ -17,10 +18,8 @@
     "border": "#FAC03860",
     "borderNeutral": "#E8DCC0",
     "selection": "#FBD06A",
-    "selectionSoft": "#FEF0CE",
     "hover": "#FAC0381F",
     "error": "#AA3731",
-    "errorDeep": "#660000",
     "warning": "#9F5E23",
     "success": "#3C7B22",
     "info": "#406FAE",
